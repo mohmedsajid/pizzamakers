@@ -12,7 +12,7 @@ export default function Navbar(props){
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to="/">Home</Link>
+            <Link to="/pizzamakers">Home</Link>
           </li>
           <li className="nav-item">
             <Link to="/menu">Menu</Link>
