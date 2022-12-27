@@ -1,7 +1,7 @@
 a:hover{
     text-decoration: none;
 }
-#about {
+#home-product {
    background-image: url(../images/about-bg.jpg);
    background-repeat: no-repeat;
    background-position:center top;
@@ -10,10 +10,10 @@ a:hover{
    padding: 29px 0 40px 0;
    position: relative;
 }
-#about .product-image{
+#home-product .product-image{
    max-width: 100%;
 }
-#about .title a{
+#home-product .title a{
    font-size: 1.8rem !important;
     margin: 20px 0;
     display: block;
@@ -54,13 +54,13 @@ a:hover{
    text-align: center;
    padding-bottom: 30px;
 }
-#about .price{
+#home-product .price{
    text-align: center !important;
    font-size: 1.3rem !important;
    font-weight: bold;
    color: crimson !important;
 }
-#about .container {
+#home-product .container {
    position: relative;
    background: rgba(0, 0, 0, 0.7);
    padding: 30px;
@@ -68,7 +68,7 @@ a:hover{
    color: #fff;
 }
 
-#about .about-col {
+#home-product .about-col {
    background: #fff;
    border-radius: 0 0 4px 4px;
    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
@@ -76,15 +76,15 @@ a:hover{
    padding:20px;
 }
 
-#about .about-col .img {
+#home-product .about-col .img {
    position: relative;
 }
 
-#about .about-col .img img {
+#home-product .about-col .img img {
    border-radius: 4px 4px 0 0;
 }
 
-#about .about-col .icon {
+#home-product .about-col .icon {
    width: 64px;
    height: 64px;
    padding-top: 8px;
@@ -99,22 +99,22 @@ a:hover{
    transition: 0.3s;
 }
 
-#about .about-col i {
+#home-product .about-col i {
    font-size: 24px;
    line-height: 1.5;
    color: #fff;
    transition: 0.3s;
 }
 
-#about .about-col:hover .icon {
+#home-product .about-col:hover .icon {
    background-color: #fff;
 }
 
-#about .about-col:hover i {
+#home-product .about-col:hover i {
    color: #18d26e;
 }
 
-#about .about-col h2 {
+#home-product .about-col h2 {
    color: #000;
    text-align: center;
    font-weight: 700;
@@ -123,15 +123,15 @@ a:hover{
    /*margin: 40px 0 12px 0;*/
 }
 
-#about .about-col h2 a {
+#home-product .about-col h2 a {
    color: #000;
 }
 
-#about .about-col h2 a:hover { 
+#home-product .about-col h2 a:hover { 
    color: #18d26e;
 }
 
-#about .about-col p {
+#home-product .about-col p {
    font-size: 14px;
    line-height: 24px;
    color: #333;
@@ -140,10 +140,10 @@ a:hover{
    text-align: justify;
 }
 
-#about .about-col h2 a{
+#home-product .about-col h2 a{
    text-decoration: none;
 }
-#about .btn {
+#home-product .btn {
    margin-right: 10px;
    padding: 15px 30px;
    border-radius: 20px;

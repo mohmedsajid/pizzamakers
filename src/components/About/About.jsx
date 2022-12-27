@@ -9,7 +9,7 @@ const AboutUs = () => {
   return (
     <div>
       <div>
-        <section id="about">
+        <section id="aboutus">
             <div className="container">
               <header className="section-header aos-init">
                 <h3>About Us</h3>

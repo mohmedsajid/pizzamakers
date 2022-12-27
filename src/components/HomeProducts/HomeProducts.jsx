@@ -9,7 +9,7 @@ const HomeProducts = () => {
   return (
     <div>
       <div>
-        <section id="about">
+        <section id="home-product">
             <div className="container">
               <header className="section-header aos-init">
                 <h3>We Serve Passion</h3>
