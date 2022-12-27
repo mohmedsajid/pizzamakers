@@ -3,7 +3,6 @@ Vasu Chopra
 Mohmed Sajid
 */
 import React from "react";
-import {Link} from 'react-router-dom';
 import "./css/Footer.css";
 
 function Footer() {
@@ -40,14 +39,14 @@ function Footer() {
           <div className="footer-info">
             <h4>Quick Links</h4>
             <div className="quick-links contact-info">
-              <Link to="/">Home</Link>
+              {/* <Link to="/">Home</Link>
               <Link to="/menu">Menu</Link>
               <Link to="/about-us">About Us</Link>
-              <Link to="/contact-us">Contact Us</Link>
-              {/* <a href="/"><h5>Home</h5></a>
+              <Link to="/contact-us">Contact Us</Link> */}
+              <a href="/"><h5>Home</h5></a>
               <a href="/menu"><h5>Menu</h5></a>
               <a href="/about-us"><h5>About Us</h5></a>
-              <a href="/contact-us"><h5>Contact Us</h5></a> */}
+              <a href="/contact-us"><h5>Contact Us</h5></a>
             </div>
           </div>
           
