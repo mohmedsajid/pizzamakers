@@ -1,7 +1,7 @@
 {
-  "main.css": "./static/css/main.6d0d8026.chunk.css",
-  "main.js": "./static/js/main.242605cc.chunk.js",
-  "main.js.map": "./static/js/main.242605cc.chunk.js.map",
+  "main.css": "./static/css/main.864e718d.chunk.css",
+  "main.js": "./static/js/main.7cb0bce7.chunk.js",
+  "main.js.map": "./static/js/main.7cb0bce7.chunk.js.map",
   "runtime~main.js": "./static/js/runtime~main.d673871a.js",
   "runtime~main.js.map": "./static/js/runtime~main.d673871a.js.map",
   "static/js/2.bbc4abf0.chunk.js": "./static/js/2.bbc4abf0.chunk.js",
@@ -9,7 +9,8 @@
   "static/js/3.bf5fdb0a.chunk.js": "./static/js/3.bf5fdb0a.chunk.js",
   "static/js/3.bf5fdb0a.chunk.js.map": "./static/js/3.bf5fdb0a.chunk.js.map",
   "index.html": "./index.html",
-  "precache-manifest.bfe4153ff4355ab6e516ea223132ae40.js": "./precache-manifest.bfe4153ff4355ab6e516ea223132ae40.js",
+  "precache-manifest.9ca272aba6ce84718d6603e67edb59eb.js": "./precache-manifest.9ca272aba6ce84718d6603e67edb59eb.js",
   "service-worker.js": "./service-worker.js",
-  "static/css/main.6d0d8026.chunk.css.map": "./static/css/main.6d0d8026.chunk.css.map"
+  "static/css/main.864e718d.chunk.css.map": "./static/css/main.864e718d.chunk.css.map",
+  "static/media/HomeSlider.css": "./static/media/banner-pizza.6bae0ab2.jpg"
 }

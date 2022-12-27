@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "35b6acb7040dfd75af73",
-    "url": "./static/css/main.6d0d8026.chunk.css"
+    "revision": "f1006b3a15d4e9a2117f",
+    "url": "./static/css/main.864e718d.chunk.css"
   },
   {
-    "revision": "35b6acb7040dfd75af73",
-    "url": "./static/js/main.242605cc.chunk.js"
+    "revision": "f1006b3a15d4e9a2117f",
+    "url": "./static/js/main.7cb0bce7.chunk.js"
   },
   {
     "revision": "1352b8877773e02c55ce",
@@ -20,7 +20,11 @@ self.__precacheManifest = [
     "url": "./static/js/3.bf5fdb0a.chunk.js"
   },
   {
-    "revision": "42d46bb55186b8f6f28721d302dda9d8",
+    "revision": "6bae0ab2b85ea540485d5b3cb51dcce3",
+    "url": "./static/media/banner-pizza.6bae0ab2.jpg"
+  },
+  {
+    "revision": "e8e17786f20371895b843d48d1a432b6",
     "url": "./index.html"
   }
 ];
