@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="container-fluid p-0">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <NavbarTrends/>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
