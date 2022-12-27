@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, BrowserRouter} from "react-router-dom";
+import { Routes, Route, BrowserRouter, Navigate} from "react-router-dom";
 import './css/App.css';
 import Home from "./components/Home";
 import AboutUs from './components/AboutUs';
@@ -14,6 +14,7 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <NavbarTrends/>
         <Routes>
+          <Route path="/" element={<Navigate to="/pizzamakers" />} /> 
           <Route path="/pizzamakers" element={<Home/>}></Route>
           <Route path="/about-us" element={<AboutUs/>}></Route>
           <Route path="/contact-us" element={<ContactUs/>}></Route>
