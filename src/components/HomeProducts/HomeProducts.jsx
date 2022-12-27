@@ -1,6 +1,9 @@
 /* Mohmed Sajid */
 import React from "react";
 import './css/HomeProducts.css';
+import chickenwrap from "./images/chicken-wrap.jpg";
+import italianpizza from "./images/italian-pizza.jpg";
+import shawarmaplate from "./images/shawarma-plate.jpg";
 
 const HomeProducts = () => {
   return (
@@ -15,7 +18,7 @@ const HomeProducts = () => {
               <div className="row about-cols">
                 <div className="col-md-4">
                   <div className="about-col">
-                    <img class="product-image" src="../images/shawarma-plate.jpg" alt="Shawarma Plate"/>
+                    <img class="product-image" src={shawarmaplate} alt="Shawarma Plate"/>
                     <h2 className="title"><a href="/">Shawarma Plate</a></h2>
                     <p className="price">$12.99</p>
                     <div className="d-flex justify-content-center">
@@ -25,7 +28,7 @@ const HomeProducts = () => {
                 </div>
               <div class="col-md-4">
                 <div class="about-col">
-                  <img class="product-image" src="../images/italian-pizza.jpg" alt="Italian Pizza"/>
+                  <img class="product-image" src={italianpizza} alt="Italian Pizza"/>
                   <h2 class="title"><a href="/">Italian Pizza</a></h2>
                   <p className="price">$18.99</p>
                   <div class="d-flex justify-content-center">
@@ -35,7 +38,7 @@ const HomeProducts = () => {
               </div>
               <div class="col-md-4">
                 <div class="about-col">
-                  <img class="product-image" src="../images/chicken-wrap.jpg" alt="Chicken Wrap"/>
+                  <img class="product-image" src={chickenwrap} alt="Chicken Wrap"/>
                   <h2 class="title"><a href="/">Chicken Wrap</a></h2>
                   <p className='price'>$13.99</p>
                   <div class="d-flex justify-content-center ">

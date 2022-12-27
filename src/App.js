@@ -15,7 +15,7 @@ function App() {
         <NavbarTrends/>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
-          <Route path="/pizzamakers" element={<Home/>}></Route>
+          <Route path="/pizzamakers/" element={<Home/>}></Route>
           <Route path="/about-us" element={<AboutUs/>}></Route>
           <Route path="/contact-us" element={<ContactUs/>}></Route>
           <Route path="/menu" element={<Menu/>}></Route>
