@@ -4,7 +4,8 @@ Mohmed Sajid
 */
 import React from "react";
 import "./css/HomeDIshPromotion.css";
-
+import burger from "./images/burger.png";
+import Shawarma from "./images/Shawarma.png";
 
 function HomeDishPromotion(){
     return(
@@ -23,13 +24,13 @@ function HomeDishPromotion(){
                     </div>
                     <div class="col-12 col-md-6">
                         
-                        <img className="product-image" src="./images/burger.png" alt="Classic burger"/>
+                        <img className="product-image" src={burger} alt="Classic burger"/>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6">
                         
-                        <img className="product-image" src="./images/Shawarma.png" alt="Lamb shawarma"/>
+                        <img className="product-image" src={Shawarma} alt="Lamb shawarma"/>
                     </div>
                     <div class="col-12 col-md-6">
                         <h1>Lamb Shawarma</h1>

@@ -2,7 +2,7 @@ a:hover{
     text-decoration: none;
 }
 #about {
-   background: url("/images/about-bg.jpg") center top no-repeat fixed;
+   background: url("../images/about-bg.jpg") center top no-repeat fixed;
    background-size: cover;
    padding: 29px 0 40px 0;
    position: relative;
